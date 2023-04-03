@@ -58,9 +58,11 @@ To perform this task, I built a Python script that cleanses a daily update of da
 
 * run_workflow ultimately attempst to run the named workflow, retrying if possible, pausing between runs, and reporting an error on failure.
 
-![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/UploadPy_workflow2.png?raw=true)
 
 ## Step 6 - Create an instance of the workflow class and use it to run all necessary workflow functions outlined above.
 * Creates "x" as an instance of a workflow as defined above. Proceeds to create client, login, run_workflow, and logout.
+
+![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/UploadPy_workflow2.png?raw=true)
+
 * If it reaches this part of the code, it prints a message announcing that the workflow was run, announcing the time of the run command, and finally announcing that the Upload.py file has finished its process.
 
