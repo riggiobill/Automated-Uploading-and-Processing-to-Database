@@ -43,6 +43,8 @@ To perform this task, I built a Python script that cleanses a daily update of da
 * Uses Column Name as a value for comparison against expected column names, returns an exit and an error if a discrepancy is detected - performs the same check for cell.data_type as well.
 * Checks for each expected column and data type pairing, for one spreadsheet and then for the other. Since the code exits on error detection, if it makes it to the end of the checks the data is cleansed and confirmed to be ready for upload.
 
+![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/UploadPy_data-checks.png?raw=true)
+
 * Certain exceptions are provided for in the code - namely for data that is currently blank, and will not be available yet but will be added to the sheets in the future.
  
 
