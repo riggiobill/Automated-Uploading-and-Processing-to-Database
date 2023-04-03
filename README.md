@@ -53,7 +53,12 @@ To perform this task, I built a Python script that cleanses a daily update of da
 * Space details are listed, pulling the password from an imported separate file. These can be updated here as required, as used as stable variables throughout the rest of the code.
 * Defines a class "workflowClass" to create and run the workflow, and to associate variables with it.
 * Defines functions for space initialization, creating a client, logging in with the login info provided, logging out, and executing a workflow. Also included is a poll workflow function to test and interact with the status of the workflow, determining retries and errors.
+
+![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/UploadPy_workflow1.png?raw=true)
+
 * run_workflow ultimately attempst to run the named workflow, retrying if possible, pausing between runs, and reporting an error on failure.
+
+![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/UploadPy_workflow2.png?raw=true)
 
 ## Step 6 - Create an instance of the workflow class and use it to run all necessary workflow functions outlined above.
 * Creates "x" as an instance of a workflow as defined above. Proceeds to create client, login, run_workflow, and logout.
