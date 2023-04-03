@@ -18,7 +18,7 @@ To perform this task, I built a Python script that cleanses a daily update of da
 
 * Access and edit the raw, daily update spreadsheets of data using Openpyxl to remove unnecessary sheets and confirm the names of the remaining sheets for uploading.
 
-
+![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/UploadPy_confirm-save.png?raw=true)
 
 
 ## Step 2 - Define send_email function to use for error reporting
