@@ -1,9 +1,9 @@
 
 
-# Automated-Uploading-and-Processing-to-Database
+# Automated-Uploading-and-Processing-to-DatabaseExcel.
 Set up an easy automation command for cleansing, uploading, and processing daily data for an international shipping company client. 
 
-![alt text](https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database//blob/main/SCREENSHOTS_Automated-Uploading/Excel.png?raw=true)
+![alt text] (https://github.com/riggiobill/Automated-Uploading-and-Processing-to-Database/blob/main/Screenshots/Excel.png?raw=true)
 - shot of excel sheets?
 
 ![alt text](https://github.com/riggiobill/Web-Scraping-to-HTML-with-Database/blob/main/Screenshots/App%20Screenshot%202.png?raw=true)
